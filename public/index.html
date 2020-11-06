@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <select onChange="change(event)" id="select"></select>
+    <!--Añadir personas -->
+
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="text" id="apellido" placeholder="Apellido">
+    <input type="text" id="edad" placeholder="Edad">
+    <button onclick="enviar()">enviar</button>
+
+    <!--Editar personas-->
+
+    <input type="text" id="Editarnombre" placeholder="Nombre para editar">
+    <input type="text" id="Editarapellido" placeholder="Apellido nuevo">
+    <input type="text" id="Editaredad" placeholder="Edad nueva">
+    <button onclick="editar()">editar</button>
+
+    <!--Eliminar personas-->
+    <button onclick="eliminar()">eliminar</button>
+    <div id="div1"></div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
